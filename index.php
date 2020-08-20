@@ -3,8 +3,8 @@
 <html>
     <head>
             <meta charset="utf-8">
-            <meta name="description" content="Bike Trips I want to do">
-            <meta name="keywords" content="Bike, trip, Biketour">
+            <meta name="description" content="This is a website about Kaio">
+            <meta name="keywords" content="Baby, newborn, toddler">
             <meta name="author" content="Leticia de Oliveira Leite">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Kaio na Web</title>
@@ -12,7 +12,7 @@
         <?php
             include 'external_libraries.html';
         ?>
-       
+         
         
     </head>
     <body>
@@ -39,28 +39,44 @@
         <header>
             <section id="content"> 
                 <div class="container">
-                    <h1>Kaio's history</h1>
+                    <h1>Kaio's Pictures</h1>
                     <div class="row">
                         <div class="col-6">
                             <p>
-                                Hello! This is Kaio.
+                                Hello! I am Kaio Spencer Leite. I was born in  .
                             </p>
                         </div>
                         <div class="col-6">
-                            <img src="img/watchingTV.jpg" alt="bike">
+                            <img src="img/watchingTV.jpg" alt="Kaio watching TV">
                         </div>
                     </div>
                 </div>
             </section>
         </header>
-       
+        <section id="content"> 
+                <div class="container">
+                    <h1>Kaio's Pictures</h1>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>
+                                Hello! I am Kaio Spencer Leite. I was born in  .
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/watchingTV.jpg" alt="Kaio watching TV">
+                        </div>
+                    </div>
+                </div>
+            </section>      
 
         <section id="video">
             <div class="container">
                 <h1>Kaio's Video</h1>
                 <div class="embed-responsive embed-responsive-16by9">
                     
-                    <iframe class="responsive-iframe" src="video/sample1.mp4"type="video/mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-medi; gyroescope; picture-in-picture" allowfullscreen>
+                    <iframe class="responsive-iframe" src="video/sample1.mp4"type="video/mp4"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-medi; gyroescope; 
+                    picture-in-picture" allowfullscreen>
                     </iframe>
                     
                 
@@ -76,6 +92,9 @@
                     <h1>
                         Contact Me
                     </h1>
+                    <p>
+                        Would you like to send me a message?
+                    </p>
                     <form action="#">
                         <div class="form-group">
                             <label for="Name"> Name </label>
